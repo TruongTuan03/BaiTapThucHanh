@@ -142,13 +142,33 @@
             justify-content: space-around;
             
         }
+    
+
         #seller{
             display: flex;
+            position: absolute;
             border-radius: 8px;
-            background-color: rgb(222, 167, 72);
-            color: rgb(106, 80, 49)
-            width: 10px;
-            margin-left: 360px;
+            background-color: rgb(255,201,111);
+            color: rgb(106, 80, 49);
+            width: 70px;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+        #menu3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 65px;
+            width: 70%;
+            margin-left: 80px;
+        }
+        #text{
+            display: flex;
+            background-color: rgb(198,230,217);
+            color: rgb(112,181,154);
+            width: 150px;
+            height: 35px;
             align-items: center;
             justify-content: space-around;
             
@@ -163,19 +183,61 @@
             justify-content: space-around;
             align-items: center;
             width: 190px;
-            
             color:rgb(43, 141, 84) ;
             border: 1px groove rgb(43, 141, 84) ;
         }
+
         #checkout{
             display: flex;
             justify-content: space-around;
             align-items: center;
             background-color: rgb(43, 141, 84);
-            width: 190px;
-            height:60px;
+            width: 170px;
+            height:65px;
             border-radius: 2px;
             color: white;
+        }
+        #products{
+            display: flex;
+            flex-direction: column;
+            margin-top: 170px;
+        }
+        #products-main{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 80px;
+          
+        
+        }
+        #products1{
+            display: flex;
+            flex-direction: column;
+        }
+        #products2{
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+        }
+        #products3{
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+        }
+        #products4{
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+        }
+
+        #products1-1{
+            display: flex;
+            align-items: center;
+            margin-left: 5px;
+        }
+        #products1-4{
+            display: flex;
+            align-items: center;
+
         }
         #benefits{
             display: flex;
@@ -189,6 +251,25 @@
             flex-direction: column;
         
         }
+        #left-benefits1{
+            display: flex;
+            flex-direction: column;
+        }
+        #left-benefits2{
+            display: flex;
+            margin-top: 10px ;
+            flex-direction: column;
+        }
+        #left-benefits3{
+            display: flex;
+            
+            flex-direction: column;
+        }
+        #left-benefits4{
+            display: flex;
+            
+            flex-direction: column;
+        }
         #ingredients{
             display: flex;
             justify-content: space-around;
@@ -199,8 +280,51 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin-top: 50px;
+            margin-top: 30px;
         }
+        #ingredients-low{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #seefull{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 175px;
+            height: 30px;
+            color:rgb(43, 141, 84) ;
+            border: 1px groove rgb(43, 141, 84) ;
+        }
+        #how_to_use{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin-top: 100px;
+            
+        }
+        #reviews{
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+        }
+        #reviews_top{
+            display: flex;
+            align-items: center;
+        }
+        #reviews_topbox{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 3px;
+            width: 140px;
+            height: 30px;
+            color:rgb(43, 141, 84) ;
+            border: 1px groove rgb(43, 141, 84) ;
+            margin-left: 1000px;
+        }
+
 
         
         
@@ -237,7 +361,7 @@
             <img src="Caret right 1.png" alt="">
             <div><a style="color: rgb(22, 122, 64);">Productss type</a></div>
             <img src="Caret right 1.png" alt="">
-            <div>Detail</div>
+            <div><a style="color: rgb(22, 122, 64);">Detail</a></div>
 
 
         </div>
@@ -250,7 +374,7 @@
 
             </div>
             <div id="center-product1">
-                <div id="seller">Best-seller</div>
+                <div id="seller" style=" margin-left: 360px;">Best-seller</div>
                 <img src="Image 1 (4).png" alt="">
 
             </div>
@@ -290,7 +414,7 @@
                 </div>
                 <p style="color: rgb(43, 43, 43);"><b>Choose size</b></p>
                 <td >
-                    <select name="" id="" style="background-color: rgb(234, 232, 232);">
+                    <select name="" id="" style="background-color: rgb(234, 232, 232);border-color: aliceblue;">
                         <option value="">50.000 ML</option>
                         <option value="">100.000 ML</option>
                     </select>
@@ -313,31 +437,103 @@
             </div>
 
         </div>
+
+        <div id="products">
+            <div id="font-size" style="margin-left: 130px;">Related products</div>
+            <div id="products-main">
+                <div id="products1">
+                    <img src="Image 1 (5).png" alt="">
+                    <h4 style="margin: 0 5px;">Product title</h4>
+                    <p style="color:rgb(98, 98, 98);margin-top: 2px;margin-left: 5px;">Labore sint ipsum dolore mollit</p>
+                    <div id="products1-1">
+                        <p style=" font-size: 25px;font-weight: 700;">$32</p>
+                        <p id="font-size3">$42</p>
+                        <div style="margin-left: 150px;"><img src="Button 1 (2).png" alt=""></div>
+
+                    </div>
+
+                </div>
+                <div id="products2">
+                    <div id="seller" style="margin-left: 200px;">Best-seller</div>
+                    <img src="Image 1 (6).png" alt="">
+                    <h4 style="margin: 0 5px;">Product title</h4>
+                    <p style="color:rgb(98, 98, 98);margin-top: 2px;margin-left: 5px;">Labore sint ipsum dolore mollit</p>
+                    <div id="products1-1">
+                        <p style=" font-size: 25px;font-weight: 700;">$22</p>
+                        <p id="font-size3">$28</p>
+                        <div style="margin-left: 150px;"><img src="Button 1 (2).png" alt=""></div>
+
+                    </div>
+
+
+                </div>
+                <div id="products3">
+                    <div id="seller" style="margin-left: 200px;">Best-seller</div>
+                    <img src="Image 1 (7).png" alt="">
+                    <h4 style="margin: 0 5px;">Product title</h4>
+                    <p style="color:rgb(98, 98, 98);margin-top: 2px;margin-left: 5px;">Labore sint ipsum dolore mollit</p>
+                    <div id="products1-4">
+                        <p style=" font-size: 25px;font-weight: 700;">$48</p>
+                        <p id="font-size3">$56</p>
+                        <div style="margin-left: 150px;"><img src="Button 1 (2).png" alt=""></div>
+                    </div>
+                </div>
+                <div id="products4">
+                    <div id="seller" style="margin-left: 200px;">Best-seller</div>
+                    <img src="Image 1 (8).png" alt="">
+                    <h4 style="margin: 0 5px;">Product title</h4>
+                    <p style="color:rgb(98, 98, 98);margin-top: 2px;margin-left: 5px;">Labore sint ipsum dolore mollit</p>
+                    <div id="products1-1">
+                        <p style=" font-size: 25px;font-weight: 700;">$18</p>
+                        <p id="font-size3">$26</p>
+                        <div style="margin-left: 150px;"><img src="Button 1 (2).png" alt=""></div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="menu3">
+            <div id="text">Benefits</div>
+            <div style="margin-left: 10px;"><p style="color: rgb(112,181,154);">Ingredients</p></div>
+            <p style="color: rgb(112,181,154);">|</p>
+            <p style="color: rgb(112,181,154);">How to use</p>
+            <p style="color: rgb(112,181,154);">|</p>
+            <p style="color: rgb(112,181,154);">Reviews</p>
+            <p style="color: rgb(112,181,154);">|</p>
+            <p style="color: rgb(112,181,154);">FAQs</p>
+            
+
+        </div>
+
+
         <div id="benefits">
             <div id="left-benefits">
-                <div>
+                <div id="left-benefits1">
                     <div id="font-size">Benefits</div>
-                    <p style="margin-top: 5px;">Consectetur excoptetur elit ullamco incididunt voluptate tempor <br>
+                    <p style="color:rgb(98, 98, 98)">Consectetur excoptetur elit ullamco incididunt voluptate tempor <br>
                         exceritation. Lorem commodo ullamco qusi velit officia aute <br>
                         laboris elit sit exercitation ut esse pariatur occaecat quis
                     </p>
                 </div>
-                <div>
+                <div id="left-benefits2">
                     <div>
-                        <p style="font-size: 20px;font-weight: 600;">Laboris consequat ad</p>
+                        <h4>Laboris consequat ad</h4>
                     </div>
                     <div style="margin-top: 1px;">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque culpa facilis neque <br> ab amet officiis, dolore illum blanditiis, hic deserunt, omnis quidem iure! Eius, laborum <br> saepe. Rerum, inventore sunt!</p>
+                        <p style="color:rgb(98, 98, 98);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque culpa facilis neque <br> ab amet officiis, dolore illum blanditiis, hic deserunt, omnis quidem iure! Eius, laborum <br> saepe. Rerum, inventore sunt!</p>
                     </div>
                 </div>
-                <div>
-                    <p style="font-size: 20px;font-weight: 600;">ADuis duis do labore pariatur</p>
-                    <p>Ad qui aliqua nulla nostrud consectetur laboris nostrud commodo <br>
+                <div id="left-benefits3">
+                    <h4>ADuis duis do labore pariatur</h4>
+                    <p style="style=color:rgb(98, 98, 98);">Ad qui aliqua nulla nostrud consectetur laboris nostrud commodo <br>
                         voluptate. Lorem id qui laborum aute voluptate</p>
                 </div>
-                <div>
-                    <p style="font-size: 20px;font-weight: 600;">Deserunt ex</p>
-                    <p>Cupidatat culpa id do laboris nisi aliqua eu. Veniam aliqua duis <br>
+                <div id="left-benefits4">
+                    <h4>Deserunt ex</h4>
+                    <p style="style=color:rgb(98, 98, 98);">Cupidatat culpa id do laboris nisi aliqua eu. Veniam aliqua duis <br>
                     Lorem adipisicing et minim velit quis</p>
                 </div>
             </div>
@@ -351,20 +547,61 @@
             <div style=" font-size: 30px;font-weight: 600;margin-left: 70px;">Ingredients</div>
             <div id="ingredients-main">
                 <div id="ingredients1">
-                    <div style="border-radius: 3px;"><img src="Image 1 (10).png" alt=""></div>
+                    <img src="Image 1 (10).png" alt="">
+                    <h3>Hyaluronic acid</h3>
+                    <p style="color:rgb(98, 98, 98)">Elit do sit excepteur duis labore nisi sit anim <br>
+                        adipsingcing duis incididunt sit anim sint est <br>
+                        exerciation aute consectetur
+                     </p>
+
+
+
     
                 </div>
                 <div id="ingredients2">
                     <img src="Image 1 (11).png" alt="">
+                    <h3>Green tea</h3>
+                    <p style="color:rgb(98, 98, 98)">Tempor adipsicing aute pariatur magna enim <br>
+                        Lorem voluptate incididunt culpa ex Veniam <br>
+                        sunt occaecat tempor
+                     </p>
     
                 </div>
                 <div id="ingredients3">
                     <img src="Image 1 (12).png" alt="">
+                    <h3>Olive oil</h3>
+                    <p style="color:rgb(98, 98, 98)">Cupidatat culpa id do laboris nisi aliqua eu. <br>
+                        Veniam aliqua duis Lorem adipisicing et minim <br>
+                        vilit quis
+                     </p>
     
                 </div>
             </div>
+            <div id="ingredients-low">
+                <div id="seefull">See full list</div>
+            </div>
 
-            <div>See full list</div>
+            
+
+        </div>
+
+        <div id="how_to_use">
+            <div id="font-size" style="margin-left: 70px;">How to use</div>
+            <div style="margin-left: 70px;"><img src="Image 1 (14).png" alt=""></div>
+
+        </div>
+        
+        <div id="reviews">
+            <div id="reviews_top">
+                <div id="font-size" style="margin-left: 70px;">Reviews</div>
+                <div id="reviews_topbox">Write a review </div>
+            </div>
+            <div id="reviews_main">
+
+            </div>
+            <div id="reviews_list">
+
+            </div>
 
         </div>
         
